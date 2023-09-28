@@ -1,8 +1,8 @@
 #!/bin/bash
 
+i=0
 while true;
 do
-  i=0
   
   ping -c 1 10.0.1.1
   if [ $? -eq 0 ]
